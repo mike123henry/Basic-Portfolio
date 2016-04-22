@@ -1,57 +1,111 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
   <!-- <link href="./assets/css/style.css" rel="stylesheet" type="text/css"> -->
-  <title>Portfolio</title>
-  <style type="text/css">
-  #Header1 {
-    height: 58px;
-    width: 960px;
-    border: 1px solid #0f0
-    }
-  #Name {
-    text-align: center;
-    background-color: #4aaaa5;
-    height: 58px;
-    display: inline-block;
-    width: 154px;
-    /*padding: 5px;*/
-    margin-left: 96px;
-    margin-right: 280px;
-    /*border: 1px solid #00f;*/
+<title>Portfolio</title>
+<style type="text/css">
+#Header1 {
+  height: 58px;
+  width: 480px;
+  border: 1px solid #0f0
+  display: inline-block;
+  }
+
+#Name {
+  text-align: center;
+  background-color: #4aaaa5;
+  height: 58px;
+  display: inline-block;
+  width: 154px;
+  /*padding: 5px;*/
+  margin-left: 96px;
+  margin-right: 280px;
+  /*border: 1px solid #00f;*/
 }
 
-  #inks {
-    text-align: center;
-    background-color: #4aaaa5;
-    height: 58px;
+#inks {
+  text-align: center;
+  background-color: #4aaaa5;
+  height: 58px;
+  display: inline-block;
+  width: 154px;
+  /*padding: 5px;*/
+  margin-left: 96px;
+  margin-right: 280px;
+  /*border: 1px solid #00f;*/
+}
+
+#Left_Button{
+  text-align: center;
+}
+
+#Center_Button{
+  /*border-left: 1px solid #555555;*/
+
+}
+.Header_floating_box {
     display: inline-block;
-    width: 154px;
-    /*padding: 5px;*/
-    margin-left: 96px;
-    margin-right: 280px;
-    /*border: 1px solid #00f;*/
+    width: 480px;
+    height: 58px;
+    /*border: 3px solid #0f0;*/
+}
+
+.Body1_floating_box {
+    display: inline-block;
+    width: 96px;
+    height: auto;
+    background-color: #ededed;
+    /border: 3px solid #0f0;
+}
+
+.button_floating_box{
+  display: inline-block;
+  /*width: 70px;*/
+  height: 58px;
+  /*border: 3px solid #00f;*/
+  text-align: center;
+}
+a:link, a:visited {
+    background-color: white;
+    color: #777777;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 26px;
+    padding-right: 5px
+    padding-left: 5px;
+}
+
+a:hover, a:active {
+    background-color: red;
 }
   </style>
+
 </head>
 
-<body>
-<section id="Header1">
+<body >
+<section class="Header_floating_box">
   <div  id="Name">
     <h1  >Mike Henry</h1>
   </div>
-
-  <div id="links">
-    <ul >
-    <li>About</li>
-    <li>Portfolio</li>
-    <li>Contact</li>
-  </ul>
-
 </section>
 
-<section id="Body1">
+<section class="button_floating_box" id="Left_Button">
+  <a href="default.asp" target="_blank" style="border-right: 1px solid #dde">About</a>
+</section>
+
+<section class="button_floating_box" id="Center_Button">
+    <a href="default.asp" target="_blank" >Portfolio</a>
+</section>
+
+<section class="button_floating_box">
+  <a href="default.asp" target="_blank" style="border-left: 1px solid #dde ">Contact</a>
+</section>
+
+<br>
+
+<section id="Body1_floating_box">
   <div>
     <img src=".\assets\images\ProGatePicture2.png">
     <p >"testskldf;ldskf"</p>
