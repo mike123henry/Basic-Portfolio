@@ -114,6 +114,17 @@
   border: 1px solid #dddddd;
 }
 
+#Portfolio_floating_box {
+  float: left;
+  width: 450px;
+  height: auto;
+  background-color: white;
+  color: #cccccc;
+  margin: 25px;
+  margin-left:  95px;
+  border: 1px solid #dddddd;
+}
+
 #Connect_container{
   width: 100;
   float: left;
@@ -187,4 +198,7 @@ a:hover, a:active {
 }
 .inpurForm{
   width: 410;
+}
+.portfolio_images{
+  padding: 20px;
 }
