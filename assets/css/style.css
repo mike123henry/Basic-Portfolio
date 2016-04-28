@@ -29,6 +29,8 @@
   width: 154px;
   margin-left: 96px;
   margin-right: 280px;
+  /*font-size: 24px;
+  font-weight: bold;*/
 }
 
 .Name2 {
@@ -93,8 +95,7 @@
   width: 825px;
   height: 354px;
   background-color: #eaeaea;
-  background-image: url("concrete_seamless.png");
-
+  background-image: url("../images/background/concrete_seamless/concrete_seamless.png");
 }
 #Body2_floating_box {
   width: 825px;
