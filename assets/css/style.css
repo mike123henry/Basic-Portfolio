@@ -15,6 +15,11 @@
   width: 480px;
   float: left;
 }
+.list{
+  display: inline-block;
+  margin: 0px;
+  height: 20px;
+}
 
 #Name {
   text-align: center;
@@ -38,11 +43,12 @@
 
 .Name3 {
   color: #4aaaa5;
-  /*width: 330px;
+  /*width: 330px;*/
   height: 15px;
-  display: inline-block;*/
-  padding-bottom: 20px;
-  margin-left: 18px;
+ /* display: inline-block;*/
+  padding-bottom: 14px;
+  margin-left: 12px;
+  margin-right: 2px;
   border-bottom: 2px solid #cccccc;
 }
 
@@ -73,6 +79,8 @@
 }
 
 #Center_Button{
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
 }
 
 .Header_floating_box {
@@ -83,7 +91,7 @@
 
 #Body1_floating_box {
   width: 825px;
-  height: 340px;
+  height: 354px;
   background-color: #eaeaea;
   background-image: url("concrete_seamless.png");
 
@@ -99,9 +107,10 @@
   width: 360px;
   height: auto;
   background-color: white;
-  color: #777777;
+  color: #cccccc;
   margin: 25px;
   margin-left:  95px;
+  border: 1px solid #dddddd;
 }
 
 #Connect_container{
@@ -111,6 +120,7 @@
   margin-top: 25px;
   padding: 0px 20px 20px 20px;
   text-align: center;
+  border: 1px solid #dddddd;
 }
 
 .connect_icon{
@@ -120,7 +130,7 @@
 }
 .button_floating_box{
   display: inline-block;
-  height: 58px;
+  height: 15px;
   text-align: center;
 }
 a:link, a:visited {
@@ -129,7 +139,7 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin-top: 26px;
+  /*margin-top: 26px;*/
   padding-right: 5px;
   padding-left: 5px;
 }
