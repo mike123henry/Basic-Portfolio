@@ -101,6 +101,13 @@
   width: 825px;
   height: 475px;
   background-color: #eaeaea;
+  background-image: url("../images/background/concrete_seamless/concrete_seamless.png");
+}
+#Body3_floating_box {
+  width: 825px;
+  height: 675px;
+  background-color: #eaeaea;
+  background-image: url("../images/background/concrete_seamless/concrete_seamless.png");
 }
 
 #AboutMe_floating_box {
